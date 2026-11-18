@@ -9,6 +9,7 @@ from luxury_customization.customizations import (
 	supplier_quotation,
 	item_price,
 	uom_hierarchy,
+	item_images,
 )
 
 CUSTOM_FIELD_MODULES = [
@@ -21,6 +22,7 @@ CUSTOM_FIELD_MODULES = [
 	supplier_quotation,
 	item_price,
 	uom_hierarchy,
+	item_images,
 ]
 
 

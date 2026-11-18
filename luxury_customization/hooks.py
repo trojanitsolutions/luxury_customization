@@ -49,7 +49,7 @@ doctype_js = {
 	"Company": "public/js/company.js",
 	"Purchase Order": ["public/js/uom_hierarchy.js", "public/js/purchase_order.js"],
 	"Purchase Receipt": ["public/js/uom_hierarchy.js", "public/js/purchase_receipt.js"],
-	"Purchase Invoice": ["public/js/uom_hierarchy.js", "public/js/purchase_invoice.js"],
+	"Purchase Invoice": ["public/js/uom_hierarchy.js", "public/js/purchase_invoice.js", "public/js/item_images.js"],
 	"Supplier Quotation": ["public/js/uom_hierarchy.js", "public/js/supplier_quotation.js"],
 	"Material Request": "public/js/material_request.js",
 }
