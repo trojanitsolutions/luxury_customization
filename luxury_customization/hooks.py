@@ -28,7 +28,7 @@ after_uninstall = "luxury_customization.uninstall.after_uninstall"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/luxury_customization/css/luxury_customization.css"
-# app_include_js = "/assets/luxury_customization/js/luxury_customization.js"
+app_include_js = ["/assets/luxury_customization/js/barcode/barcode_multi_item.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/luxury_customization/css/luxury_customization.css"
@@ -223,6 +223,11 @@ scheduler_events = {
 #
 override_whitelisted_methods = {
 	"frappe.website.doctype.web_form.web_form.accept": "luxury_customization.customizations.employee_checkin.accept",
+	"erpnext.stock.utils.scan_barcode": "luxury_customization.barcode.api.scan_barcode",
+}
+
+override_doctype_class = {
+	"Item": "luxury_customization.barcode.item.CustomItem",
 }
 #
 # each overriding function accepts a `data` argument;

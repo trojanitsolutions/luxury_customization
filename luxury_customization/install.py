@@ -12,6 +12,7 @@ from luxury_customization.customizations import (
 	item_images,
 	sales_invoice
 )
+from luxury_customization.barcode import item_barcode
 
 CUSTOM_FIELD_MODULES = [
 	employee,
@@ -24,7 +25,8 @@ CUSTOM_FIELD_MODULES = [
 	item_price,
 	uom_hierarchy,
 	item_images,
-	sales_invoice
+	sales_invoice,
+	item_barcode,
 ]
 
 
